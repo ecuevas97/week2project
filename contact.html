@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for the document -->
+    <meta charset="UTF-8"> <!-- Character encoding for proper text display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on mobile devices -->
+    <title>Secret Hair Piece</title> <!-- The title shown in the browser tab -->
+    <link rel="stylesheet" href="./week2project.css">
+  
+    <!-- Link to external CSS (if you add styles later) -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<link rel="stylesheet" href="./week2project.css">
+
+<nav class="navbar">
+    <ol>
+        <a href="index.html">Home</a> 
+        <a href="about.html">About</a> 
+        <a href="contact.html">Contact</a> 
+    </ol>
+</nav>
+
+<!-- SECTION 3: Contact Form -->
+<section>
+    <!-- Header for the section -->
+    <h2>Fill out the form to receive an email with contact information</h2> 
+    
+    <!-- Form for collecting user info -->
+    <form action="submit_form.php" method="POST">
+        <!-- Input field for the user's name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required> <!-- 'required' makes sure the field must be filled before entering -->
+        
+        <!-- Input field for the user's email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <!-- 'type="email"' ensures proper email format -->
+
+        <!-- Submit button to send the form data -->
+        <button type="submit">Submit</button>
+    </form>
+</section>

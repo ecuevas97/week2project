@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(255, 46, 46); /* Sets the background color of the page to a bright red. */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Chooses a serif font for the text. */
+}
+
+/*---Elements---*/
+
+h1 {
+    text-decoration: underline; /* Underlines all <h1> elements. */
+}
+
+h2 {
+    font-style: italic; /* Makes <h2> text slanted like italics. */
+    background-color: rgb(80, 11, 240); /* Gives <h2> a dark blue background. */
+    width: max-content; /* Adjusts the width to fit the content inside. */
+    padding: 5px; /* Adds space inside the <h2> box. */
+}
+
+/*---NAV---*/
+
+.navbar {
+    background-color: azure; /* Sets the navbar background to a light blue. */
+    padding: 1.0em; /* Adds space around the navbar content. */
+}
+
+.navbar  {
+    display: flex; /* Makes the navbar items align in a row. */
+    flex-wrap: nowrap; /* Prevents items from wrapping to the next line. */
+    justify-content: flex-start; /* Aligns items to the left. */
+    list-style-type: none; /* Removes bullet points from list items. */
+}
+
+.navbar ol {
+    color: blue; /* Sets the text color of ordered lists to blue. */
+    text-decoration: none; /* Removes underlines from text. */
+    margin-right: 1em; /* Adds space to the right of each list item. */
+    font-size: 24px; /* Sets the text size to 24px. */
+}
+
+.navbar a:hover {
+    color: aqua; /* Changes link color to aqua when hovered. */
+    text-decoration: none; /* Removes underlines when hovered. */
+    margin-right: 1cm; /* Adds more space to the right when hovered. */
+    font-size: 24px; /* Increases font size when hovered. */
+    box-shadow: 2px 1px rgb(253, 253, 253); /* Adds a shadow effect when hovered. */
+}
+
+.navbar a:active {
+    background-color: antiquewhite; /* Changes background color when the link is clicked. */
+    border-radius: 50%; /* Rounds the background into a circle shape. */
+}
+
+/*---image list index---*/
+
+#convenience {
+    display: flex; /* Arranges items in a row. */
+    justify-content: space-around; /* Adds space evenly around the items. */
+    flex-wrap: wrap; /* Allows items to wrap to the next row if needed. */
+}
+
+#convenience li {
+    text-align: center; /* Centers the text inside list items. */
+    list-style: none; /* Removes bullet points. */
+}
+
+/*---table---*/
+
+table {
+    background-color: rgb(125, 125, 250); /* Gives the table a light purple background. */
+    border: dotted 3px #4309ef; /* Adds a 3px dotted border with a dark blue color. */
+}
+
+table {
+    font-size: 20px; /* Sets the font size of table text. */
+    font-weight: 600; /* Makes the table text bold. */
+}
+
+thead {
+    background-color: blue; /* Gives the table header a blue background. */
+}
+
+th, tr {
+    text-indent: 20px; /* Adds space at the beginning of table rows and headers. */
+}
+
+/*----contact page----*/
+
+h2 {
+    display: flex; /* Makes <h2> behave like a flex container. */
+    flex-direction: column; /* Stacks content inside <h2> vertically. */
+    max-width: 30vw; /* Limits the width to 30% of the viewport width. */
+    background-color: blue; /* Sets the background color to blue. */
+    padding: 16px; /* Adds space inside the <h2> box. */
+    align-self: center; /* Centers the <h2> box within its parent. */
+    text-align: center; /* Centers the text inside the <h2>. */
+}
+
+form {
+    display: flex; /* Makes the form a flex container. */
+    flex-direction: column; /* Stacks form items vertically. */
+    max-width: 30vw; /* Limits the form's width to 30% of the screen width. */
+    background-color: blue; /* Sets the form's background color to blue. */
+    padding: 16px; /* Adds space inside the form. */
+}
+
+form label {
+   color: azure; /* Makes label text light blue. */
+   font-weight: 600; /* Makes the text bold. */
+   font-size: larger; /* Increases the size of the text. */
+   align-self: center; /* Centers the labels in their container. */
+   text-align: center; /* Centers the text inside the label. */
+}
+
+form input {
+    padding: 5px; /* Adds space inside the input fields. */
+    letter-spacing: 3px; /* Increases the space between letters. */
+    font-weight: 600; /* Makes the text inside input fields bold. */
+}
+
+form button {
+    padding: 5px; /* Adds space inside the button. */
+    letter-spacing: 3px; /* Adds space between the letters on the button. */
+    font-size: 20px; /* Sets the button's text size to 20px. */
+    font-weight: 600; /* Makes the button text bold. */
+}
+
+
